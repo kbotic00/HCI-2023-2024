@@ -8,12 +8,14 @@ export interface Product {
   images:string;
 }
 
-const BASE_API_URL = "https://fakestoreapi.com/products";
+const BASE_API_URL = "https://fakestoreapi.com";
+
 
 const getProducts = async (): Promise<Product[]> => {
-  const data = await fetch(`${BASE_API_URL}?limit=10`);
+  const data = await fetch(`${BASE_API_URL}/products?limit=10`);
   return data.json();
 };
+
 
 export default async function Products() {
   const products = await getProducts();
