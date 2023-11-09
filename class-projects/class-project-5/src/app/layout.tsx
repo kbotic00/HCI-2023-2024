@@ -6,7 +6,7 @@ import "./globals.css";
 // Get this info from some external source (e.g. CMS)
 const pages = {
   home: "/",
-  shop: "/shop",
+  products: "products",
   sale:"/sale",
   blog: "/blog", 
   about:"/about",
