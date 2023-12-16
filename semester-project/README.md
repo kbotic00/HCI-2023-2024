@@ -6,6 +6,10 @@ link Vercel:
 
 
 Dovršavanje projekta nakon prvih 6 class-projecta:
+
+
+
+
 1.tjedan rok 15.12.2023. - potrebne stvari za dovršiti:
 
 High-fidelity za web stranicu i za mobilnu
@@ -13,6 +17,9 @@ High-fidelity za web stranicu i za mobilnu
 Dovrštiti izradu home page-a footer, urediti heroSection, doraditi searchbar i dodati strelice za kategorije
 
 Uvesti responzivnost i doraditi prikaz za mobitel
+
+
+
 
 2.tjedan rok 22.12.2023. - potrebne stvari za dovršiti:
 
