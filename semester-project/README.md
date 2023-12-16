@@ -2,7 +2,7 @@
 
 Sudionici projekta: Paula Bonić i Katarina Botić
 
-link Vercel:
+Link Vercel:
 
 
 ## Dovršavanje projekta nakon prvih 6 class-projecta:
@@ -19,5 +19,5 @@ Uvesti responzivnost i doraditi prikaz za mobitel
 
 Sve sto nismo prije obavili
 
-3.tjedan rok 12.01.2024.
-4.tjedan rok 19.01.2024.
+### 3.tjedan rok 12.01.2024.
+### 4.tjedan rok 19.01.2024.
