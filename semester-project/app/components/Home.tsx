@@ -34,65 +34,81 @@ function Home() {
                     </button>
                 </div>
             </div>
+
             <div className={styles.partTwo}>
                 <div className={styles.categorieShow}>
                     <div className={styles.categorieName}>Dropping soon</div>
-                    <div className={styles.imageBox}>
-                        <button className={styles.productPhoto}>
-                            <img src="./images/smallImage3.png"></img>
-                        </button>
-                        <button className={styles.productPhoto}>
-                            <img src="./images/smallImage3.png"></img>
-                        </button>
-                        <button className={styles.productPhoto}>
-                            <img src="./images/smallImage3.png"></img>
-                        </button>
-                        <button className={styles.productPhoto}>
-                            <img src="./images/smallImage3.png"></img>
-                        </button>
-                        <button className={styles.productPhoto}>
-                            <img src="./images/smallImage3.png"></img>
-                        </button>
-                    </div>
-                </div>
-                <div className={styles.categorieShow}>
-                    <div className={styles.categorieName}>Najnovije</div>
-                    <div className={styles.imageBox}>
-                        <button className={styles.productPhoto}>
-                            <img src="./images/smallImage3.png"></img>
-                        </button>
-                        <button className={styles.productPhoto}>
-                            <img src="./images/smallImage3.png"></img>
-                        </button>
-                        <button className={styles.productPhoto}>
-                            <img src="./images/smallImage3.png"></img>
-                        </button>
-                        <button className={styles.productPhoto}>
-                            <img src="./images/smallImage3.png"></img>
-                        </button>
-                        <button className={styles.productPhoto}>
-                            <img src="./images/smallImage3.png"></img>
-                        </button>
-                    </div>
-                </div>
-                <div className={styles.categorieShow}>
-                    <div className={styles.categorieName}>Najprodavanije</div>
-                    <div className={styles.imageBox}>
-                        <button className={styles.productPhoto}>
-                            <img src="./images/smallImage3.png"></img>
-                        </button>
-                        <button className={styles.productPhoto}>
-                            <img src="./images/smallImage3.png"></img>
-                        </button>
-                        <button className={styles.productPhoto}>
-                            <img src="./images/smallImage3.png"></img>
-                        </button>
-                        <button className={styles.productPhoto}>
-                            <img src="./images/smallImage3.png"></img>
-                        </button>
-                        <button className={styles.productPhoto}>
-                            <img src="./images/smallImage3.png"></img>
-                        </button>
+                    <div className={styles.productBox}>
+                        <div className={styles.product}>
+                            <div className={styles.photoBox}>
+                                <button className={styles.productPhoto}>
+                                    <img src="./images/smallImage3.png"></img>
+                                </button>
+                            </div>
+                            <div className={styles.productTextBox}>
+                                <div className={styles.productText}>
+                                    <div className={styles.productName}>Nike Air Force ‘07</div>
+                                    <div className={styles.productCategorie}>Men’s Shoes</div>
+                                </div>
+                                <div className={styles.productPrice}>€ 119.99</div>
+                            </div>
+                        </div>
+                        <div className={styles.product}>
+                            <div className={styles.photoBox}>
+                                <button className={styles.productPhoto}>
+                                    <img src="./images/smallImage3.png"></img>
+                                </button>
+                            </div>
+                            <div className={styles.productTextBox}>
+                                <div className={styles.productText}>
+                                    <div className={styles.productName}>Nike Air Force ‘07</div>
+                                    <div className={styles.productCategorie}>Men’s Shoes</div>
+                                </div>
+                                <div className={styles.productPrice}>€ 119.99</div>
+                            </div>
+                        </div>
+                        <div className={styles.product}>
+                            <div className={styles.photoBox}>
+                                <button className={styles.productPhoto}>
+                                    <img src="./images/smallImage3.png"></img>
+                                </button>
+                            </div>
+                            <div className={styles.productTextBox}>
+                                <div className={styles.productText}>
+                                    <div className={styles.productName}>Nike Air Force ‘07</div>
+                                    <div className={styles.productCategorie}>Men’s Shoes</div>
+                                </div>
+                                <div className={styles.productPrice}>€ 119.99</div>
+                            </div>
+                        </div>
+                        <div className={styles.product}>
+                            <div className={styles.photoBox}>
+                                <button className={styles.productPhoto}>
+                                    <img src="./images/smallImage3.png"></img>
+                                </button>
+                            </div>
+                            <div className={styles.productTextBox}>
+                                <div className={styles.productText}>
+                                    <div className={styles.productName}>Nike Air Force ‘07</div>
+                                    <div className={styles.productCategorie}>Men’s Shoes</div>
+                                </div>
+                                <div className={styles.productPrice}>€ 119.99</div>
+                            </div>
+                        </div>
+                        <div className={styles.product}>
+                            <div className={styles.photoBox}>
+                                <button className={styles.productPhoto}>
+                                    <img src="./images/smallImage3.png"></img>
+                                </button>
+                            </div>
+                            <div className={styles.productTextBox}>
+                                <div className={styles.productText}>
+                                    <div className={styles.productName}>Nike Air Force ‘07</div>
+                                    <div className={styles.productCategorie}>Men’s Shoes</div>
+                                </div>
+                                <div className={styles.productPrice}>€ 119.99</div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

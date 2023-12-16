@@ -26,9 +26,11 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 156.119%; /* 24.979px */
+    line-height: 156.119%;
+    /* 24.979px */
 }
-.surname{
+
+.surname {
     color: #000;
     text-align: center;
     font-family: MuseoModerno;
@@ -38,7 +40,8 @@
     line-height: normal;
     height: 120px;
 }
-.descripton{
+
+.descripton {
     display: flex;
     width: 70px;
     height: 79px;
@@ -50,9 +53,10 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 156.119%; 
+    line-height: 156.119%;
 }
-#buttonBuy{
+
+#buttonBuy {
     display: inline-flex;
     padding: 8px 52px;
     justify-content: center;
@@ -65,8 +69,9 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 156.119%; /* 24.979px */
-    }
+    line-height: 156.119%;
+    /* 24.979px */
+}
 
 
 .otherImages {
@@ -77,23 +82,70 @@
     align-items: center;
     gap: 2px;
 }
-.smallImage{
+.smallImage {}
 
-}
-.partTwo{
+.partTwo {}
 
+.photoBox{
+    display: flex;
+    width: 215px;
+    height: 214px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    display: flex;
+    border-radius: 30px 30px 0px 0px;
+    background: #EBEBEB;
 }
-.categorieName{
-    color: #000;
+.productPhoto {
+    width: 215px;
+    height: 214px;
+    flex-shrink: 0;
+    background: lightgray 50% / cover no-repeat;
+    border-radius: 30px 30px 0px 0px;
+}
+.productName{
+    color: #222;
+    text-align: center;
     font-family: Inter;
-    font-size: 32px;
+    font-size: 14px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 156.119%; /* 49.958px */
+    font-weight: 600;
+    line-height: normal;
 }
-.imageBox{
+.productCategorie{
+    color: #7A7981;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.productText{
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
+.productPrice{
+    color: #222;
+    text-align: center;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.product{
+    width: 209px;
+    height: 281px;
+    border-radius: 33px;
+    background: #FFF;
+}
+.productBox{
     display: flex;
     align-items: flex-start;
     gap: 17px;
-    justify-content: space-around;
+    flex-direction:rown;
+    justify-content: center;
 }
