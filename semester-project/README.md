@@ -1,16 +1,13 @@
-Projekt:Izrada web shopa za prodaju obuće
+## Projekt : Izrada web shopa za prodaju obuće
 
 Sudionici projekta: Paula Bonić i Katarina Botić
 
 link Vercel:
 
 
-Dovršavanje projekta nakon prvih 6 class-projecta:
+## Dovršavanje projekta nakon prvih 6 class-projecta:
 
-
-
-
-1.tjedan rok 15.12.2023. - potrebne stvari za dovršiti:
+### 1.tjedan rok 15.12.2023. - potrebne stvari za dovršiti:
 
 High-fidelity za web stranicu i za mobilnu
 
@@ -18,10 +15,7 @@ Dovrštiti izradu home page-a footer, urediti heroSection, doraditi searchbar i 
 
 Uvesti responzivnost i doraditi prikaz za mobitel
 
-
-
-
-2.tjedan rok 22.12.2023. - potrebne stvari za dovršiti:
+### 2.tjedan rok 22.12.2023. - potrebne stvari za dovršiti:
 
 Sve sto nismo prije obavili
 
