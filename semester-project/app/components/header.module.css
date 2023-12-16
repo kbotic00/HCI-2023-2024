@@ -1,0 +1,43 @@
+#header{
+    display: flex;
+    background-color:black;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10%;
+    padding-left: 6%;
+    padding-bottom: 1.5%;
+    padding-top: 1.5%;
+    width: 100%;
+}
+.logoNav{
+
+}
+#logoContainer{
+    display: flex;
+    padding: 100px;
+}
+#logoTitle{
+    color:white; 
+}
+.navContainer{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.navButton{
+    color:white;
+}
+.navButtonSale{
+    color:red;
+}
+
+.searchContainer{
+    border: 1px solid #ccc;
+    border-radius: 20%;
+}
+
+.searchContainer input{
+    border: 1px solid #ccc;
+    border-radius: 20%;
+}
