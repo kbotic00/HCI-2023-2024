@@ -2,7 +2,7 @@
 
 Sudionici projekta: Paula Bonić i Katarina Botić
 
-Link Vercel:
+Link Vercel: https://hci-2023-2024-jvfr.vercel.app/
 
 
 ## Dovršavanje projekta nakon prvih 6 class-projecta:
