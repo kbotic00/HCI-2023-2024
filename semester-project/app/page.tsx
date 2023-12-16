@@ -1,9 +1,15 @@
-export default function Home() {
+import Image from 'next/image'
+import Home from './components/Home'
+import Footer from './components/Footer'
+import Header from './components/Header'
+
+
+export default function Main() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-10">
-      <div>
-        <h1 className="text-3xl font-bold mb-8 text-center">Home page</h1>
-      </div>
-    </main>
-  );
+    <>
+      <Header />
+      <Home />
+      <Footer />
+    </>
+  )
 }

@@ -82,14 +82,19 @@
     align-items: center;
     gap: 2px;
 }
+
 .smallImage {}
 
-.partTwo {}
+.partTwo {
 
-.photoBox{
+    background: #F6F6F6;
+    gap: 10%;
+}
+
+.photoBox {
     display: flex;
-    width: 215px;
-    height: 214px;
+    width: 209px;
+    height: 200px;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
@@ -97,14 +102,16 @@
     border-radius: 30px 30px 0px 0px;
     background: #EBEBEB;
 }
+
 .productPhoto {
-    width: 215px;
-    height: 214px;
+    width: 209px;
+    height: 200px;
     flex-shrink: 0;
     background: lightgray 50% / cover no-repeat;
     border-radius: 30px 30px 0px 0px;
 }
-.productName{
+
+.productName {
     color: #222;
     text-align: center;
     font-family: Inter;
@@ -113,7 +120,8 @@
     font-weight: 600;
     line-height: normal;
 }
-.productCategorie{
+
+.productCategorie {
     color: #7A7981;
     text-align: center;
     font-family: Inter;
@@ -122,12 +130,14 @@
     font-weight: 500;
     line-height: normal;
 }
-.productText{
+
+.productText {
     align-items: center;
     justify-content: center;
     padding: 3%;
 }
-.productPrice{
+
+.productPrice {
     color: #222;
     text-align: center;
     font-family: Inter;
@@ -136,16 +146,81 @@
     font-weight: 600;
     line-height: normal;
 }
-.product{
+
+.product {
     width: 209px;
     height: 281px;
     border-radius: 33px;
     background: #FFF;
 }
-.productBox{
+
+.productBox {
     display: flex;
     align-items: flex-start;
     gap: 17px;
-    flex-direction:rown;
+    flex-direction: rown;
     justify-content: center;
+    padding-bottom: 2%;
+}
+
+.categorieName {
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 156.119%;
+    /* 49.958px */
+    padding-left: 13%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+
+}
+
+.CategorieShow {
+    justify-content: center;
+
+}
+
+.categorie {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    border-radius: 89px;
+    background: #FFF;
+}
+
+.categorie img {
+    border-radius: 89px;
+    background: lightgray 50% / cover no-repeat;
+}
+
+.categorieBox {
+    display: flex;
+    background: #F6F6F6;
+    gap: 10%;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 3%;
+    padding-bottom: 4%;
+}
+
+.brand {
+    width: 258.656px;
+    height: 198.912px;
+    justify-content: center;
+}
+
+.brandList {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+#brandBox {
+    display: inline-flex;
+    padding: 20px 152.608px;
+    justify-content: center;
+    align-items: center;
+    background: #252525;
 }

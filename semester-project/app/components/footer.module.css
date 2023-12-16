@@ -1,0 +1,41 @@
+#boxOne{
+    background: #252525;
+}
+.deliveryInfoList{
+    display:flex;
+    flex-direction: row;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.deliveryInfo{
+    flex-direction:row;
+}
+.featureLogo{
+
+}
+.featureName{
+
+}
+.featureDescription{
+
+}
+
+#boxTwo{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: #383a3d;
+    padding-bottom:30;
+}
+.helpName{
+    font-size: large;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.ul{
+    padding:5%;
+}
+.helpBox{
+    justify-content:flex-start;
+    padding-bottom: 20px;
+}

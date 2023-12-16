@@ -34,10 +34,10 @@
 
 .searchContainer{
     border: 1px solid #ccc;
-    border-radius: 20%;
+    border-radius: 30px 30px 30px 30px;
 }
 
 .searchContainer input{
     border: 1px solid #ccc;
-    border-radius: 20%;
+    border-radius: 30px 30px 30px 30px;
 }
