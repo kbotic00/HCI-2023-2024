@@ -37,6 +37,20 @@ function Home() {
                 </div>
             </div>
 
+            <div id={styles.partThree}>
+                <div className={styles.categorieBox}>
+                    <div className={styles.categorie}>
+                        <img src="./images/men.png"></img>
+                    </div>
+                    <div className={styles.categorie}>
+                        <img src="./images/women.png"></img>
+                    </div>
+                    <div className={styles.categorie}>
+                        <img src="./images/kids.png"></img>
+                    </div>
+                </div>
+            </div>
+
             <div className={styles.partTwo}>
                 <div className={styles.categorieShow}>
                     <div className={styles.categorieName}>Dropping soon</div>
@@ -115,6 +129,8 @@ function Home() {
                        
                     </div>
                 </div>
+
+
                 <div className={styles.categorieShow}>
                     <div className={styles.categorieName}>Najnovije</div>
                     <div className={styles.productBox}>
@@ -190,7 +206,32 @@ function Home() {
                         </div>
                     </div>
                 </div>
-                <div className={styles.categorieShow}>
+                
+                <div id={styles.brandBox}>
+                <div className={styles.brandList}>
+                    <div className={styles.brand}>
+                        <img src="./images/nike.png"></img>
+                    </div>
+                    <div className={styles.brand}>
+                        <img src="./images/converse.png"></img>
+                    </div>
+                    <div className={styles.brand}>
+                        <img src="./images/adidas.png"></img>
+                    </div>
+                    <div className={styles.brand}>
+                        <img src="./images/vans.png"></img>
+                    </div>
+                    <div className={styles.brand}>
+                        <img src="./images/puma.png"></img>
+                    </div>
+                </div>
+            </div>
+
+
+            </div>
+           
+            <div className={styles.partTwo}>
+            <div className={styles.categorieShow}>
                     <div className={styles.categorieName}>Najprodavanije</div>
                     <div className={styles.productBox}>
                         <div className={styles.product}>
@@ -265,21 +306,6 @@ function Home() {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div id={styles.partThree}>
-                <div className={styles.categorieBox}>
-                    <div className={styles.categorie}>
-                        <img src="./images/men.png"></img>
-                    </div>
-                    <div className={styles.categorie}>
-                        <img src="./images/women.png"></img>
-                    </div>
-                    <div className={styles.categorie}>
-                        <img src="./images/kids.png"></img>
-                    </div>
-                </div>
-            </div>
-            <div className={styles.partTwo}>
                 <div className={styles.categorieShow}>
                     <div className={styles.categorieName}>Akcija</div>
                     <div className={styles.productBox}>
@@ -355,26 +381,10 @@ function Home() {
                         </div>
                     </div>
                 </div>
+
+                
             </div>
-            <div id={styles.brandBox}>
-                <div className={styles.brandList}>
-                    <div className={styles.brand}>
-                        <img src="./images/nike.png"></img>
-                    </div>
-                    <div className={styles.brand}>
-                        <img src="./images/converse.png"></img>
-                    </div>
-                    <div className={styles.brand}>
-                        <img src="./images/adidas.png"></img>
-                    </div>
-                    <div className={styles.brand}>
-                        <img src="./images/vans.png"></img>
-                    </div>
-                    <div className={styles.brand}>
-                        <img src="./images/puma.png"></img>
-                    </div>
-                </div>
-            </div>
+            
         </>
     );
 }

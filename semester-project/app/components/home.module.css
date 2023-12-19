@@ -212,21 +212,30 @@ padding-bottom: 30px;
 }
 
 .brand {
-    width: 258.656px;
-    height: 198.912px;
+    display: flex;
+    width: 175px;
+    height: 175px;
     justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
 }
 
 .brandList {
     display: flex;
     align-items: center;
+    justify-content: space-evenly;
     gap: 3px;
+    width: 1115px;
+    height: 175px;
 }
 
 #brandBox {
-    display: inline-flex;
-    padding: 20px 152.608px;
-    justify-content: center;
-    align-items: center;
+    display: flex;
+height: 243px;
+padding: 34px 141.5px 34px 143.5px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
     background: #252525;
+    
 }
