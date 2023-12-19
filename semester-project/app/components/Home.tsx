@@ -41,7 +41,7 @@ function Home() {
                 <div className={styles.categorieShow}>
                     <div className={styles.categorieName}>Dropping soon</div>
                     <div className={styles.productBox}>
-                        //ovdi dodat strelicu livo
+                        
                         <div className={styles.product}>
                             <div className={styles.photoBox}>
                                 <button className={styles.productPhoto}>
@@ -112,7 +112,7 @@ function Home() {
                                 <div className={styles.productPrice}>€ 119.99</div>
                             </div>
                         </div>
-                        //dodat desnu strelicu
+                       
                     </div>
                 </div>
                 <div className={styles.categorieShow}>
