@@ -7,10 +7,12 @@ function Home() {
             <div id={styles.heroSection}>
                 <div className={styles.itemMain}>
                     <div className={styles.textBox}>
+                        <div className={styles.text}>
                         <div className={styles.name}>Air Jordan 1</div>
                         <div className={styles.surname}>MID SE</div>
-                        <div className={styles.description}>Would you like to own all of them? Prijavi se na nagradnu igru i osvoji svih 5 pari tenisica</div>
-                        <button id={styles.buttonBuy}>Buy</button>
+                        <div className={styles.description}>
+                       Would you like to own all of them? Prijavi se na nagradnu igru i osvoji svih 5 pari tenisica </div></div>
+                        <button id={styles.buttonBuy}>SHOP</button>
                     </div>
                     <div className={styles.mainImage}>
                         <img src="./images/Component 1.png"></img>
@@ -39,6 +41,7 @@ function Home() {
                 <div className={styles.categorieShow}>
                     <div className={styles.categorieName}>Dropping soon</div>
                     <div className={styles.productBox}>
+                        //ovdi dodat strelicu livo
                         <div className={styles.product}>
                             <div className={styles.photoBox}>
                                 <button className={styles.productPhoto}>
@@ -109,6 +112,7 @@ function Home() {
                                 <div className={styles.productPrice}>€ 119.99</div>
                             </div>
                         </div>
+                        //dodat desnu strelicu
                     </div>
                 </div>
                 <div className={styles.categorieShow}>
