@@ -138,7 +138,7 @@
         color: #222;
         text-align: center;
         font-family: Inter;
-        font-size: 14px;
+        font-size: 12px;
         font-style: normal;
         font-weight: 600;
         line-height: normal;
@@ -172,7 +172,7 @@
     
     .product {
         width: 100px;
-        height: 125px;
+        height: 150px;
         border-radius: 25px;
         background: #FFF;
     }
