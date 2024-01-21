@@ -1,43 +1,96 @@
-#header{
-    display: flex;
-    background-color:black;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 10%;
-    padding-left: 6%;
-    padding-bottom: 1.5%;
-    padding-top: 1.5%;
-    width: 100%;
+@media (min-width:850px) 
+{   #header{
+        display: flex;
+        background-color:black;
+        justify-content: space-between;
+        gap: 10%;
+        padding-left: 6%;
+        padding-bottom: 1.5%;
+        padding-top: 1.5%;
+        width: 100%;
+    }
+    
+    .logoContainer{
+        display: flex;
+    }
+    #logoTitle{
+        color:white; 
+    }
+    .navContainer{
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+    }
+    .navButton{
+        color:white;
+    }
+    .navButtonSale{
+        color:red;
+    }
+    #dropButton img {
+        height: 30px;
+        justify-content: center;
+        display: none;
+    }
 }
-.logoNav{
+@media (max-width: 849px){
+    #header{
+        display: flex;
+        background-color:black;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10%;
+        padding-left: 6%;
+        padding-bottom: 1.5%;
+        padding-top: 1.5%;
+        width: 100%;
+        position: fixed;
+        z-index: 1000;
+    }
+    .logoContainer{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+    }
+    #logoTitle{
+        color:white; 
+        font-size: 17px;
+        padding:2%;
+    }
+    #dropButton img {
+        height: 30px;
+        justify-content: center;
+      }
+    .logoNav{
+        display: flex;
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 30px;
 
-}
-#logoContainer{
-    display: flex;
-    padding: 100px;
-}
-#logoTitle{
-    color:white; 
-}
-.navContainer{
-    align-items: center;
-    display: flex;
-    flex-direction: row;
-    gap: 32px;
-}
-.navButton{
-    color:white;
-}
-.navButtonSale{
-    color:red;
-}
-
-.searchContainer{
-    border: 1px solid #ccc;
-    border-radius: 30px 30px 30px 30px;
-}
-
-.searchContainer input{
-    border: 1px solid #ccc;
-    border-radius: 30px 30px 30px 30px;
+    }
+    .navigation{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .navContainer{
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        width: 300px;
+    }
+    .navButton{
+        color:white;
+        justify-content: center;
+        align-items: center;
+    }
+    .navButtonSale{
+        color:red;
+        justify-content: center;
+        align-items: center;
+    }
+    
 }
