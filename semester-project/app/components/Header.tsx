@@ -47,6 +47,9 @@ function Header() {
                 <Link href="/sale">
                     <p className={styles.navButtonSale}>Sale</p>
                 </Link>
+                <Link href="/about">
+                    <p className={styles.navButton}>About</p>
+                </Link>
             </div>
             :
             ""
