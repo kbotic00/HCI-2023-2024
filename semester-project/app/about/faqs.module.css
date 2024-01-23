@@ -86,10 +86,7 @@
         padding-bottom:60px;
         padding-left: 15%;
     }
-    .textFrame {
-        display:flex;
-        width:270px;
-    }
+    
 
     .element{
     display:flex;
