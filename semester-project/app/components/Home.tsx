@@ -119,7 +119,7 @@ function Home() {
 
            
             <div className={styles.partTwo}>
-            <div className={styles.categorieShow}>
+                <div className={styles.categorieShow}>
                     <div className={styles.categorieName}>Najprodavanije</div>
                     <div className={styles.productBox}>
                         {/* Render different number of products based on screen width */}

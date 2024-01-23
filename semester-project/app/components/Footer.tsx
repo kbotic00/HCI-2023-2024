@@ -7,7 +7,7 @@ function Footer() {
       <div className={styles.deliveryInfoList}>
         <div className={styles.deliveryInfo}>
           <div className={styles.featureLogo}>
-            <img src="./images/delivery.png"></img>
+            <img src="./images/u_box.png"></img>
           </div>
           <div className={styles.feature}>
             <div className={styles.featureName}>Delivery via DPD </div>
@@ -16,7 +16,7 @@ function Footer() {
         </div>
         <div className={styles.deliveryInfo}>
           <div className={styles.featureLogo}>
-            <img src="./images/box.png"></img>
+            <img src="./images/u_sync.png"></img>
           </div>
           <div className={styles.feature}>
             <div className={styles.featureName}>Free delivery</div>
@@ -25,7 +25,7 @@ function Footer() {
         </div>
         <div className={styles.deliveryInfo}>
           <div className={styles.featureLogo}>
-            <img src="./images/return.png"></img>
+            <img src="./images/u_truck.png"></img>
           </div>
           <div className={styles.feature}>
             <div className={styles.featureName}>Free return</div>

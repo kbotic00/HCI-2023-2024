@@ -1,23 +1,38 @@
 #boxOne{
-    background: #252525;
+    background: #D9D9D9;
 }
 .deliveryInfoList{
-    display:flex;
-    flex-direction: row;
-    padding: 20px;
-    justify-content: space-evenly;
+    background: #D9D9D9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 98px;
 }
 .deliveryInfo{
-    flex-direction:row;
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
 .featureLogo{
 
 }
 .featureName{
-
+    color: #000;
+    text-align: left;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 .featureDescription{
-
+    color: rgba(0, 0, 0, 0.80);
+    text-align: left;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
 }
 
 #boxTwo{
@@ -38,4 +53,34 @@
 .helpBox{
     justify-content:flex-start;
     padding-bottom: 20px;
+}
+
+@media (max-width: 849px){
+    .featureDescription{
+        display: none;
+    }
+
+    .featureLogo{
+        width: 25px;
+        height: 25px;
+    }
+
+    .deliveryInfoList{
+        background: #D9D9D9;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height:60px;
+        padding-left: 15%;
+        padding-right: 15%
+      
+    }
+    .deliveryInfo{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    .featureName{
+        display:none;
+    }
 }
