@@ -1,0 +1,191 @@
+.heading {
+    color: #252525;
+    font-family: "Inter";
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 52px;
+    letter-spacing: 3.84px;
+    text-transform: uppercase;
+    padding-top: 7%;
+    padding-bottom:60px;
+    padding-left: 15%;
+}
+.mainContainer{
+    position: relative;
+    background-color: #F6F6F6;
+    padding-bottom:100px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.element{
+    display:flex;
+    border-radius: 22px;
+    background: #E6E6E6;
+    flex-direction:row;
+    justify-content: flex-start;
+    width:1130px;
+    padding:10px;
+}
+
+.number{
+    color: #252525;
+    font-family: "Inter";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 107.143% */
+    letter-spacing: 0.2px;
+   
+    align-items: center;
+    justify-content: center;
+    padding-top:10px;
+    padding-left:30px;
+    padding-right:30px;
+}
+.fullQuestion{
+    display:flex;
+    flex-direction:column;
+    padding: 7px;
+    gap:10px;
+}
+.question{
+    color: #252525;
+    font-family: "PP Neue Montreal";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 125% */
+    letter-spacing: 0.2px;
+}
+.answer{
+    color: #252525;
+    font-family: "PP Neue Montreal";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: 0.2px;
+}
+@media (max-width:750px) {
+    .heading {
+        color: #252525;
+        font-family: "Inter";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 52px;
+        letter-spacing: 3.84px;
+        text-transform: uppercase;
+        padding-top: 7%;
+        padding-bottom:60px;
+        padding-left: 15%;
+    }
+    
+
+    .element{
+    display:flex;
+    border-radius: 22px;
+    background: #E6E6E6;
+    flex-direction:row;
+    justify-content: flex-start;
+    width:380px;
+    padding:10px;
+    }
+    .number{
+        color: #252525;
+        font-family: "Inter";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 107.143% */
+        letter-spacing: 0.2px;
+    
+        align-items: center;
+        justify-content: center;
+        padding-top:10px;
+        padding-left:30px;
+        padding-right:30px;
+    }
+    .fullQuestion{
+        display:flex;
+        flex-direction:column;
+        padding: 7px;
+        gap:10px;
+    }
+    .question{
+        color: #252525;
+        font-family: "PP Neue Montreal";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 125% */
+        letter-spacing: 0.2px;
+    }
+    .answer{
+        color: #252525;
+        font-family: "PP Neue Montreal";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 133.333% */
+        letter-spacing: 0.2px;
+    }
+}
+@media (min-width:752px) and (max-width:1150px) {
+
+    .element{
+    display:flex;
+    border-radius: 22px;
+    background: #E6E6E6;
+    flex-direction:row;
+    justify-content: flex-start;
+    width:600px;
+    padding:10px;
+    }
+    .number{
+        color: #252525;
+        font-family: "Inter";
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 107.143% */
+        letter-spacing: 0.2px;
+       
+        align-items: center;
+        justify-content: center;
+        padding-top:10px;
+        padding-left:30px;
+        padding-right:30px;
+    }
+    .fullQuestion{
+        display:flex;
+        flex-direction:column;
+        padding: 7px;
+        gap:10px;
+    }
+    .question{
+        color: #252525;
+        font-family: "PP Neue Montreal";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 125% */
+        letter-spacing: 0.2px;
+    }
+    .answer{
+        color: #252525;
+        font-family: "PP Neue Montreal";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px; /* 133.333% */
+        letter-spacing: 0.2px;
+    }
+}
+

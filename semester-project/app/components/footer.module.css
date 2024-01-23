@@ -54,6 +54,7 @@
     justify-content:flex-start;
     padding-bottom: 20px;
 }
+<<<<<<< HEAD
 
 @media (max-width: 849px){
     .featureDescription{
@@ -84,3 +85,5 @@
         display:none;
     }
 }
+=======
+>>>>>>> e0338858bd7819f260fc7c7f1d0eab1888276221
