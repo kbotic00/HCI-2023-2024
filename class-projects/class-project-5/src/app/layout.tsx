@@ -9,7 +9,6 @@ const pages = {
   products: "products",
   sale:"/sale",
   blog: "/blog", 
-  about:"/about",
   mycart:"/mycart",
   profile:"/profile"
 

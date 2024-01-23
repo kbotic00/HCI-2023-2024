@@ -73,6 +73,23 @@
     letter-spacing: 0.2px;
 }
 @media (max-width:750px) {
+    .heading {
+        color: #252525;
+        font-family: "Inter";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 52px;
+        letter-spacing: 3.84px;
+        text-transform: uppercase;
+        padding-top: 7%;
+        padding-bottom:60px;
+        padding-left: 15%;
+    }
+    .textFrame {
+        display:flex;
+        width:270px;
+    }
 
     .element{
     display:flex;
@@ -80,9 +97,9 @@
     background: #E6E6E6;
     flex-direction:row;
     justify-content: flex-start;
-    width:400px;
+    width:380px;
     padding:10px;
-}
+    }
     .number{
         color: #252525;
         font-family: "Inter";

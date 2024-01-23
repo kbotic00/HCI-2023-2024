@@ -62,6 +62,7 @@
         justify-content: center;
         padding-left: 25px;
         padding-right: 25px;
+        padding-right: 25px;
         gap: 26px;
     }
    
@@ -74,6 +75,18 @@
         padding-bottom:100px;
         justify-content: center;
     
+    }
+    .heading {
+        color: #252525;
+        font-family: "Inter";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 52px;
+        letter-spacing: 3.84px;
+        text-transform: uppercase;
+        padding-top: 7%;
+        padding-left: 15%;
     }
 }
 @media (min-width:751px){
