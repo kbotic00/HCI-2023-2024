@@ -1,23 +1,33 @@
-.photoFrame{
+/* Common styles for both normal and smaller screens */
+.photoFrame {
     display: flex;
-    padding-left: 124.236px;
     justify-content: center;
-    align-items:flex-end;
+    align-items: flex-end;
     background: #9F021E;
     box-shadow: 12px 4px 23.6px 0px rgba(0, 0, 0, 0.25);
-    height:454px;
-    width:676px;
-}
-
-.mainContainer{
+    height: 454px; /* Adjust height as needed */
+    width: 676px; /* Adjust width as needed */
+    position: relative; /* Added */
+  }
+  
+  .photoFrame img {
+    width: 100%; /* Make the image fill the container width */
+    height: 100%; /* Make the image fill the container height */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    flex-shrink: 0;
+  }
+  
+  .mainContainer {
     position: relative;
     background-color: #F6F6F6;
-    padding-top:90px;
-    padding-bottom:200px;
-    display:flex;
-    flex-direction:row;
-}
-.heading {
+    padding-top: 90px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+  }
+  
+  .heading {
     color: #252525;
     font-family: "Inter";
     font-size: 48px;
@@ -28,117 +38,89 @@
     text-transform: uppercase;
     width: 300.77px;
     height: 130.788px;
-    display:flex;
-}
-.text{
+    display: flex;
+  }
+  
+  .text {
     color: #252525;
     font-family: "Inter";
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 34px; /* 141.667% */
+    line-height: 34px;
     letter-spacing: 1.92px;
     width: 450px;
-}
-.textFrame{
+  }
+  
+  .textFrame {
     display: flex;
     flex-direction: column;
-    padding-left:14%;
-    gap:30px;
+    padding-left: 10%;
+    gap: 30px;
     align-items: flex-start;
-}
-#inputForm {
+  }
+  
+  #inputForm {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
-    width:450px;
-    height:38px;
-}
-#inputForm input{
-    display:flex;
+    width: 450px;
+    height: 38px;
+  }
+  
+  #inputForm input {
+    display: flex;
     flex-direction: column;
-    width:450px;
-    
-}
-#inputForm button{
-    display:flex;
-    width:max-content;
-    justify-content:flex-end;
+    width: 450px;
+  }
+  
+  #inputForm button {
+    display: flex;
+    width: max-content;
+    justify-content: flex-end;
     display: flex;
     padding: 4px 16px;
     align-items: center;
     gap: 8px;
     border-radius: 31px;
     background: #252525;
-    color:white;
-    margin-left:370px;
-}
-
-@media (max-width:750px){
-    .photoFrame{
-        display: none;
-        
-        justify-content: flex-end;
-        align-items: center;
-        background: #9F021E;
-        box-shadow: 12px 4px 23.6px 0px rgba(0, 0, 0, 0.25);
-        height:250px;
-        }
-    .photoFrame img{
-        width: 285.46px;
-        height: 380.614px;
+    color: white;
+    margin-left: 370px;
+  }
+  
+  /* Media query for smaller screens */
+  @media (max-width: 750px) {
+    .photoFrame {
+      height: 250px;
     }
-    .mainContainer{
-        position: relative;
-        background-color: #F6F6F6;
-        padding-top:90px;
-        padding-bottom:150px;
-        display:flex;
-        flex-direction:row;
+  
+    .mainContainer {
+      padding-bottom: 150px;
+      gap:15px;
     }
-    .mainContainer{
-        position: relative;
-        background-color: #F6F6F6;
-        padding-top:90px;
-        padding-bottom:200px;
-        display:flex;
-        flex-direction:row;
-    }
+  
     .heading {
-        color: #252525;
-        font-family: "Inter";
-        font-size: 40px;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 52px;
-        letter-spacing: 3.84px;
-        text-transform: uppercase;
-        width: 300.77px;
-        height: 130.788px;
-        display:flex;
+      font-size: 40px;
+      width: 300px;
+      justify-content: flex-start;
     }
-    .text{
-        color: #252525;
-        font-family: "Inter";
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 20px; /* 141.667% */
-        letter-spacing: 1.92px;
-        width: 200px;
+  
+    .text {
+      font-size: 12px;
+      line-height: 20px;
+      width: 300px;
     }
-    .textFrame{
-        display: flex;
-        flex-direction: column;
-        padding-left:14%;
-        gap:10px;
-        align-items: flex-start;
+  
+    .textFrame {
+      padding-left: 14%;
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
     }
+  
     #inputForm {
-        display: none;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 8px;
+      display: none;
     }
-}
+  }
+  
