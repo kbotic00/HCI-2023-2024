@@ -1,14 +1,18 @@
 import Image from 'next/image'
-import About from './AboutUs'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
+import AboutBox from './AboutBox'
+import FaqsBox from './FaqsBox'
+import MoreQBox from './MoreQBox'
 
 
 export default function Main() {
   return (
     <>
       <Header/>
-      <About/>
+      <AboutBox/>
+      <FaqsBox/>
+      <MoreQBox/>
       <Footer/>
     </>
   )

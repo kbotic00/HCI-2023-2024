@@ -4,12 +4,19 @@ import {
   Roboto_Condensed,
   Playfair_Display,
 } from "next/font/google";
+import { Montserrat } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
 import Footer from "./components/Footer";
 import clsx from "clsx";
 import Header from "./components/Header";
 import Home from "./components/Home";
+
+const montserrat = Montserrat({
+  weight: ["400", "600", "700"], // You can add more weights if needed
+  subsets: ["latin"],
+  variable: "--font-montserrat",
+});
 
 const roboto = Roboto({
   weight: ["400"],
