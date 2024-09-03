@@ -24,7 +24,7 @@ const slides =[
     {
         id:3,
         title: "Sale Collection",
-        description:"Sale! Up to 50% off!",
+        description:" ",
         img:"https://images.pexels.com/photos/26178670/pexels-photo-26178670/free-photo-of-person-wearing-gold-bracelet-tying-white-shoes.jpeg?auto=compress&cs=tinysrgb&w=600",
         url:"/",
         bg:"bg-gradient-to-r from red-50 to gray-50"
