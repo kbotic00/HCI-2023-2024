@@ -112,7 +112,7 @@ export default function ProductPage({ params }: ProductPageProps) {
             <p className="text-gray-500">{product.shortDescription}</p>
             <h3 className="text-l text-gray-700 ">€ {product.price.toFixed(2)}</h3> 
           </div>
-          <button className="h-[45px] w-[178px] px-5 py-2 bg-[#252525] rounded-[70px] justify-center items-center flex-wrap ">
+          <button className="h-[45px] w-[178px] px-5 py-2 bg-[#252525] rounded-[70px] justify-center items-center flex-wrap  hover:bg-customRed">
               <div className="text-[#f2f2f2] text-base leading-[24.98px]">Dodaj u košaricu</div>
             </button>
           <div className="text-sm">
