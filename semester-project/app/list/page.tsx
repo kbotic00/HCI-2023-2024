@@ -188,7 +188,7 @@ const ListPage = () => {
                       alt={product.name || "Product Image"}
                       layout="fill"
                       objectFit="cover"
-                      className="rounded-3xl z-10 hover:opacity-60 transition-opacity ease duration-500"
+                      className="rounded-3xl z-2 hover:opacity-60 transition-opacity ease duration-500"
                     />
                   </div>
                   <div className="h-15 flex-col justify-start items-start gap-2 inline-flex bg-slate- w-[209px] px-2 py-1">
@@ -197,7 +197,7 @@ const ListPage = () => {
                       <div className="text-center text-[#7a7981] text-xs font-medium font-['Montserrat']">{product.gender} tenisice</div>
                     </div>
                     <div className="relative w-[209px] flex flex-row">
-                      <div className="left-1 absolute text-center text-[#212121] text-xs font-semibold font-['Montserrat']">€ {product.price}</div>
+                      <div className="left-1 absolute text-center text-[#212121] text-xs font-semibold font-['Montserrat']">€ {product.price.toFixed(2)}</div>
                     </div>
                   </div>
                 </div>

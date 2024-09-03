@@ -75,9 +75,9 @@ export default function ProductPage({ params }: ProductPageProps) {
   ].filter((url): url is string => !!url); // Filter out undefined values
 
   return (
-    <div className="px-2 md:px-2 lg:px-12 xl:px-16 2xl:px-20 relative flex top-10 pb-5 mb-20 flex-col lg:flex-row gap-16 bg-customGray text-black">
-      <div className="w-full lg:w-1/2 lg:sticky top-10 h-max">
-        <div className="h-[500px] relative">
+    <div className="px-[4%] md:px-[4%] lg:px-12 xl:px-16 2xl:px-20 relative flex top-10 pb-5 mb-20 flex-col sm:flex-row gap-8 bg-customGray text-black">
+      <div className="max-w-[95%] sm:w-1/2 sm:sticky top-10 h-max justify-center">
+        <div className="h-[250px] sm:h-[400px] relative">
           <Image
             src={images[index]}
             alt={`Product image ${index + 1}`}
@@ -105,19 +105,21 @@ export default function ProductPage({ params }: ProductPageProps) {
         </div>
       </div>
 
-      <div className="w-full lg:w-1/2">
-        <div className="flex flex-col gap-8">
-          <h1 className="text-4xl font-medium pt-4">{product.name}</h1>
-          <p className="text-gray-500">{product.shortDescription}</p>
-          <div className="h-[2px] bg-gray-100"></div>
-          <div className="flex items-center gap-4">
-            <h3 className="text-xl text-gray-700 ">${product.price}</h3>
+      <div className="w-full sm:w-1/2 ">
+        <div className="flex flex-col gap-4">
+          <div className="flex flex-col gap-3 pb-5">
+            <h1 className="text-4xl font-medium pt-4">{product.name}</h1>
+            <p className="text-gray-500">{product.shortDescription}</p>
+            <h3 className="text-l text-gray-700 ">€ {product.price.toFixed(2)}</h3> 
           </div>
-          <div className="h-[2px] bg-gray-100"></div>
+          <button className="h-[45px] w-[178px] px-5 py-2 bg-[#252525] rounded-[70px] justify-center items-center flex-wrap ">
+              <div className="text-[#f2f2f2] text-base leading-[24.98px]">Dodaj u košaricu</div>
+            </button>
           <div className="text-sm">
             <h4 className="font-bold mb-4">Opis</h4>
             <p>{product.description}</p>
           </div>
+          <div className="h-[2px] "></div>
           <div className="text-sm">
             <h4 className="font-medium mb-4 text-gray-500">Detalji:</h4>
             <p className="px-3">
@@ -129,6 +131,7 @@ export default function ProductPage({ params }: ProductPageProps) {
               <br /> Soft feel
             </p>
           </div>
+          <div className="h-[2px] "></div>
           <div className="text-sm">
             <Povrat />
           </div>
