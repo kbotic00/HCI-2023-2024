@@ -22,17 +22,25 @@ Created the home page with list of products. Also worked on the "About Us" page.
 ### Week 4
 No improvements.
 ### Break 10.02.-05.08
-### Wekk 6
-Creating
+### Week 6
+Creating Slider, Single Page and improving responsivenes, editing footer.
 ### Week 7
-Creating a contentful.
+Creating a contentful, editing single product page.
 ### Week 8
-Fetching data from contentful.
+Fetching data from contentful to a home page and shop page.
 ### Week 9
+Improving final details: menu, single page, about us, filter options and improving responsiveness.
 
 
 # Final toughts
 ##Positive
+- Good design
+- Home page is simple but effective, great filter options for easier search options
+- Followed basic design principles and heuristics: visibility,consistency,mapping,
+- Everything what is implemented works without errors
 ##Negative
+- No shoe size option
+- No cart implementation
+- No search of products available
 
 
