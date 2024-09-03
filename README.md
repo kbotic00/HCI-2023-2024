@@ -1,6 +1,7 @@
 ﻿# PROJECT-BOIC <!-- omit in toc -->
 
-autors:Paula Bonić & Katarina Botić
+autors: Paula Bonić & Katarina Botić
+
 🔗notion link: 
 
 ## Project Structure
