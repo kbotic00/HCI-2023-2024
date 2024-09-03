@@ -33,12 +33,14 @@ Improving final details: menu, single page, about us, filter options and improvi
 
 
 # Final toughts
-##Positive
+## Positive
 - Good design
 - Home page is simple but effective, great filter options for easier search options
 - Followed basic design principles and heuristics: visibility,consistency,mapping,
 - Everything what is implemented works without errors
-##Negative
+
+  
+## Negative
 - No shoe size option
 - No cart implementation
 - No search of products available
