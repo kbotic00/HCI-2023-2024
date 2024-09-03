@@ -18,7 +18,7 @@ Started a new Next.js app, discussed the project theme, and created a low-fideli
 ### Week 2
 Developed the navigation bar, footer, and implemented dynamic routing.
 ### Week 3
-Created the home page and the product list page. Also worked on the "About Us" page.
+Created the home page with list of products. Also worked on the "About Us" page.
 ### Week 4
 No improvements.
 ### Break 10.02.-05.08
