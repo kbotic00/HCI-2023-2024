@@ -78,7 +78,7 @@ const HomePage: React.FC = () => {
                 <div className="text-center text-[#7a7981] text-xs font-medium font-['Montserrat']">{product.gender} tenisice</div>
               </div>
               <div className="relative w-[209px] flex flex-row">
-                <div className="left-1 absolute text-center text-[#212121] text-xs font-semibold font-['Montserrat']">€ {product.price}</div>
+                <div className="left-1 absolute text-center text-[#212121] text-xs font-semibold font-['Montserrat']">€{product.price.toFixed(2)}</div>
               </div>
             </div>
           </div>
