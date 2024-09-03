@@ -1,13 +1,15 @@
+
 // HeroSection.tsx
 import React, { useState } from "react";
 import styles from './moreq.module.css';
+import Image from "next/image";
 
 function MoreQBox() {
     
     return <>
     <div className={styles.mainContainer}>
         <div className={styles.photoFrame}>
-            <img src="./images/image_q.png" alt="Picture" />
+            <img src="./image_q.png" alt="Picture" />
         </div>
         <div className={styles.textFrame}>
             <div className={styles.heading}>Imaš još pitanja?</div>

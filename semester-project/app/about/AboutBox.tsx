@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import styles from './aboutUs.module.css';
+import Image from "next/image";
 
 function AboutBox() {
     
     return <>
     <div className={styles.mainContainer}>
         <div className={styles.mainPhoto}>
-            <img src="./images/Picture.png" alt="Picture" />
+            <img src="./Picture.png" alt="Picture" />
         </div> 
         <div className={styles.box}>
             <div className={styles.heading}>ABOUT US</div>
