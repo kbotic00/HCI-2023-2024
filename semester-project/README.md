@@ -1,36 +1,23 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Projekt : Izrada web shopa za prodaju obuće
 
-## Getting Started
+Sudionici projekta: Paula Bonić i Katarina Botić
 
-First, run the development server:
+Link Vercel: https://hci-2023-2024-jvfr.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Dovršavanje projekta nakon prvih 6 class-projecta:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 1.tjedan rok 15.12.2023. - potrebne stvari za dovršiti:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+High-fidelity za web stranicu i za mobilnu
 
-## Learn More
+Dovrštiti izradu home page-a footer, urediti heroSection, doraditi searchbar i dodati strelice za kategorije
 
-To learn more about Next.js, take a look at the following resources:
+Uvesti responzivnost i doraditi prikaz za mobitel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 2.tjedan rok 22.12.2023. - potrebne stvari za dovršiti:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Sve sto nismo prije obavili
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 3.tjedan rok 12.01.2024.
+### 4.tjedan rok 19.01.2024.
