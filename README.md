@@ -34,15 +34,15 @@ Improving final details: menu, single page, about us, filter options and improvi
 
 # Final toughts
 ## Positive
-- Good design
-- Home page is simple but effective, great filter options for easier search options
-- Followed basic design principles and heuristics: visibility,consistency,mapping,
-- Everything what is implemented works without errors
+- Home page, Shop page and Product page are designed to be simple yet effective, providing a clean and intuitive user experience.
+- The filter options are well-implemented, allowing users to easily search and narrow down their choices.
+- The project follows basic design principles and heuristics, including visibility, consistency, and mapping, ensuring a user-friendly interface.
+- All implemented features work seamlessly without any errors, contributing to a smooth user experience.
 
   
 ## Negative
-- No shoe size option
-- No cart implementation
-- No search of products available
+- Missing Shoe Size Option
+- No Cart Implementation 
+- No Product Search Functionality
 
 
