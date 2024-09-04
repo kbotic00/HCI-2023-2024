@@ -30,12 +30,12 @@ const Productimages =()=>{
     <>
     <div>
         <div className="h-[500px] relative">
-            <Image src={images[index].url} alt="" fill sizes="50vw"className="object-cover rounded-md"></Image>
+            <Image src={images[index].url} alt="main photo" fill sizes="50vw"className="object-cover rounded-md"></Image>
         </div>
         <div className="flex justify-between gap-4 cursor-pointer">
             {images.map((img,i)=>(
                  <div className="w-1/4 h-32 relative gap-4 mt-8"key={img.id} onClick={()=>setIndex(i)}>
-                    <Image src={img.url} alt="" fill sizes="30vw"className="object-cover rounded-md"></Image>
+                    <Image src={img.url} alt="small photo" fill sizes="30vw"className="object-cover rounded-md"></Image>
                 </div> 
             ))}  
         </div>

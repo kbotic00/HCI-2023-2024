@@ -16,7 +16,7 @@ const Cartmodal = () => {
           <h2 className="text-xl">Shopping Cart</h2>
           <div className="flex flex-col gap-8">
             <div className="flex gap-4">
-            <Image src="https://images.pexels.com/photos/5730956/pexels-photo-5730956.jpeg?auto=compress&cs=tinysrgb&w=400" alt="" width={72} height={96} className="object-cover rounded-md"></Image>
+            <Image src="https://images.pexels.com/photos/5730956/pexels-photo-5730956.jpeg?auto=compress&cs=tinysrgb&w=400" alt="photo of shoes" width={72} height={96} className="object-cover rounded-md"></Image>
               <div className="flex flex-col justify-between w-full">
                 {/*Top */}
                 <div className="">
@@ -37,7 +37,7 @@ const Cartmodal = () => {
             </div>
             </div>
             <div className="flex gap-4">
-            <Image src="https://images.pexels.com/photos/5730956/pexels-photo-5730956.jpeg?auto=compress&cs=tinysrgb&w=400" alt="" width={72} height={96} className="object-cover rounded-md"></Image>
+            <Image src="https://images.pexels.com/photos/5730956/pexels-photo-5730956.jpeg?auto=compress&cs=tinysrgb&w=400" alt="photo of shoes" width={72} height={96} className="object-cover rounded-md"></Image>
               <div className="flex flex-col justify-between w-full">
                 {/*Top */}
                 <div className="">

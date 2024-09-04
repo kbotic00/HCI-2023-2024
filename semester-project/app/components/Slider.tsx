@@ -59,7 +59,7 @@ const Slider = () => {
             <div className="h-1/2 xl:w-1/2 xl:h-full relative">
               <Image
                 src={slide.img}
-                alt=""
+                alt="picture1"
                 fill
                 className="object-cover w-auto"
               />
