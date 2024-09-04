@@ -2,7 +2,7 @@
 
  autors: Paula Bonić & Katarina Botić
 
-🔗notion link: 
+🔗notion link: notion link 
 
 ## Project Structure
 
