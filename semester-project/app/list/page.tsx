@@ -194,7 +194,7 @@ const ListPage = () => {
                   <div className="h-15 flex-col justify-start items-start gap-2 inline-flex bg-slate- w-[209px] px-2 py-1">
                     <div className="flex-col justify-start items-start flex">
                       <div className="text-center text-[#212121] text-sm font-semibold font-['Montserrat']">{product.name}</div>
-                      <div className="text-center text-[#7a7981] text-xs font-medium font-['Montserrat']">{product.gender} tenisice</div>
+                      <div className="text-center text-[#77767a] text-xs font-medium font-['Montserrat']">{product.gender} tenisice</div>
                     </div>
                     <div className="relative w-[209px] flex flex-row">
                       <div className="left-1 absolute text-center text-[#212121] text-xs font-semibold font-['Montserrat']">€ {product.price.toFixed(2)}</div>
