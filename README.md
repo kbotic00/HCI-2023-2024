@@ -2,7 +2,8 @@
 
  autors: Paula Bonić & Katarina Botić
 
-🔗notion link: notion link 
+🔗notion link: https://www.notion.so/BOIC-f253a2406715425dbc3df6b227d3f6a8?pvs=4
+
 
 ## Project Structure
 
