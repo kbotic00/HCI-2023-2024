@@ -34,11 +34,11 @@ const Navbar = () => {
             <Image src="/logo.png" alt="logo" width={24} height={24} />
             <div className="text-2xl tracking-wide">BOIC</div>
           </Link>
-          <div className="hidden md:flex gap-4">
-            <Link href="/" className={isActive("/") ? "text-red-500" : ""}>Home</Link>
-            <Link href="/list" className={isActive("/list") ? "text-red-500" : ""}>Shop</Link>
-            <Link href="/sale" className={isActive("/sale") ? "text-red-500" : ""}>Sale</Link>
-            <Link href="/about" className={isActive("/about") ? "text-red-500" : ""}>About</Link>
+          <div className="hidden md:flex gap-6">
+            <Link href="/" className={isActive("/") ? "bg-customGray text-black px-4 py-1  opacity-95 rounded-2xl" : "py-1"}>Home</Link>
+            <Link href="/list" className={isActive("/list") ? "bg-customGray text-black px-4 py-1  opacity-95 rounded-2xl"  : "py-1"}>Shop</Link>
+            <Link href="/sale" className={isActive("/sale") ? "bg-customGray text-black px-4 py-1  opacity-95 rounded-2xl"  : "py-1"}>Sale</Link>
+            <Link href="/about" className={isActive("/about") ? "bg-customGray text-black px-4 py-1  opacity-95 rounded-2xl"  : "py-1"}>About</Link>
           </div>
         </div>
         {/* RIGHT */}
