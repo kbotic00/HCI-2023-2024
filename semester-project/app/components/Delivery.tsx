@@ -5,7 +5,7 @@ const Delivery = () => {
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-24 p-4">
           <div className="flex items-center gap-4 w-100">
             <div className="w-6 h-6 md:w-auto md:h-auto">
-              <img src="./u_box.png" className="w-full h-full object-contain w-22 h-22" />
+              <img src="./u_box.png" alt="delivery time" className="w-full h-full object-contain w-22 h-22" />
             </div>
             <div className=" ">
               <div className="text-black text-left font-semibold text-lg">Delivery via DPD</div>
@@ -14,7 +14,7 @@ const Delivery = () => {
           </div>
           <div className="flex items-center gap-4 w-100">
             <div className="w-6 h-6 md:w-auto md:h-auto">
-              <img src="./u_sync.png" className="w-full h-full object-contain w-22 h-22" />
+              <img src="./u_sync.png" alt="delivery" className="w-full h-full object-contain w-22 h-22" />
             </div>
             <div className="">
               <div className="text-black text-left font-semibold text-lg">Free delivery</div>
@@ -23,7 +23,7 @@ const Delivery = () => {
           </div>
           <div className="flex items-center gap-4 w-100">
             <div className="w-6 h-6 md:w-auto md:h-auto">
-              <img src="./u_truck.png" className="w-full h-full object-contain w-22 h-22" />
+              <img src="./u_truck.png" alt="return"className="w-full h-full object-contain w-22 h-22" />
             </div>
             <div className="">
               <div className="text-black text-left font-semibold text-lg">Free return</div>

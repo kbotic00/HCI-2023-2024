@@ -45,14 +45,14 @@ const Product: FC<ProductProps> = ({ product }) => {
           <div className="text-[#212121] text-sm font-semibold">
             {product.name}
           </div>
-          <div className="text-[#7a7981] text-xs font-medium">
+          <div className="text-[#525153] text-xs font-medium">
             {product.shortDescription}
           </div>
           <div className="flex flex-col items-start mt-2">
             <div className="text-[#212121] text-sm font-semibold">
               € {product.price.toFixed(2)}
             </div>
-            <div className="text-[#7a7981] text-xs font-medium">
+            <div className="text-[#525153] text-xs font-medium">
               ({(product.price * 7.53).toFixed(2)} kn)
             </div>
           </div>
